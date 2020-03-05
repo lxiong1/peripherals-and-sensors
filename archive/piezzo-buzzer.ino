@@ -8,9 +8,6 @@ void setup() {
 void loop() {
   Serial.println("Buzzing...");
 
-  // int delayInMilliseconds = 500;
-  // buzzEffectOne(buzzPin, delayInMilliseconds);
-  // buzzEffectTwo(buzzPin, delayInMilliseconds);
   twoBitsBuzz(buzzPin);
 }
 
@@ -35,32 +32,26 @@ void twoBitsBuzz(int buzzPin) {
   delay(100);
   analogWrite(buzzPin, 0);
   delay(300);
-
   analogWrite(buzzPin, 160);
   delay(100);
   analogWrite(buzzPin, 0);
   delay(50);
-
   analogWrite(buzzPin, 160);
   delay(100);
   analogWrite(buzzPin, 0);
   delay(50);
-
   analogWrite(buzzPin, 160);
   delay(100);
   analogWrite(buzzPin, 0);
   delay(75);
-
   analogWrite(buzzPin, 160);
   delay(100);
   analogWrite(buzzPin, 0);
   delay(500);
-
   analogWrite(buzzPin, 208);
   delay(100);
   analogWrite(buzzPin, 0);
   delay(300);
-
   analogWrite(buzzPin, 240);
   delay(100);
   analogWrite(buzzPin, 0);

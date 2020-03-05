@@ -1,4 +1,4 @@
-/home/luexiong/projects/peripherals/target/1.4.4/argon//obj/./src/user_module.o: \
+/home/luexiong/projects/peripherals-and-sensors/target/1.4.4/argon//obj/./src/user_module.o: \
  src/user_module.c \
  ../../../modules/shared/nRF52840/inc/user-part/user_module.inc \
  ../../../dynalib/inc/dynalib.h
